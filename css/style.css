@@ -1,0 +1,133 @@
+@font-face {
+    font-family: "regular";
+    src: url("../fonts/BalooDa2-Regular.ttf");
+
+}
+
+@font-face {
+    font-family: "bold";
+    src: url("../fonts/BalooDa2-Bold.ttf");
+}
+
+@font-face {
+    font-family: "semi";
+    src: url("../fonts/BalooDa2-SemiBold.ttf");
+}
+
+/*TEXT COLORS*/
+.text-purple{
+    color: #563D7C;
+}
+
+.text-violet{
+    color: #787CB4;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: regular;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    height: 100%;
+    background-image: url("../img/ea3fd3102ccf575e3c33954f73eab78d.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+
+h1{
+    font-family: bold;
+}
+
+h2, h3{
+    font-family: semi;
+}
+
+
+a:hover{
+    color: #ff2200 !important;
+}
+
+ul{
+    list-style-type: none;
+}
+
+ul li{
+    padding: 10px;
+}
+
+/*ABOUT ME*/
+#about_me h2{
+    font-size: 4rem;
+    background: #8e9eab;
+    background: -webkit-linear-gradient(to right, #eef2f3, #8e9eab);
+    background: linear-gradient(to right, #eef2f3, #8e9eab);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.transbox{
+    margin: 1.875rem;
+    background-color: #1b1e21;
+    border: 1px solid #000000;
+    opacity: 0.75;
+}
+
+#c-logo{
+    width: 2rem;
+}
+.carousel-control-prev{
+    color: black;
+}
+
+#footer{
+    height: 15rem;
+}
+
+
+
+@media (min-width: 1200px) {
+
+    .transbox{
+        height: 37.5rem;
+        margin: 9.375rem;
+    }
+
+    .fade-in {
+        -webkit-animation: fade-in 3s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+        animation: fade-in 3s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+    }
+
+}
+
+@-webkit-keyframes fade-in {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+@keyframes fade-in {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+
+
+
+
+
+
